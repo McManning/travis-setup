@@ -72,3 +72,4 @@ docker run -d \
 * ... actually have the image create `.travis/deploy.sh`
 * Rename environment variables. PATH/ROOT are too vague
 * Post-rsync (or deployment) script execution (service restarts and whatnot)
+* Replace rsync with scp and deployment staging, probably.
