@@ -73,3 +73,4 @@ docker run -d \
 * Rename environment variables. PATH/ROOT are too vague
 * Post-rsync (or deployment) script execution (service restarts and whatnot)
 * Replace rsync with scp and deployment staging, probably.
+* Slim down the image, nuke `git` and `openssh` dependencies unless we wanna do some repo analysis in the process
